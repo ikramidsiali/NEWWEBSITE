@@ -1,0 +1,329 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.emotions {
+    display: grid;
+    place-items: center;
+    margin: 10px;
+}
+
+.tenses {width: 19%; border: none;}
+.Present {width: 27%;}
+.Past {width: 27%;}
+.Future {width: 27%;}
+
+.Adjective {width: 50%;}
+.Noun {width: 50%;}
+.Examples {width: 80%;}
+.Pronoun {width: 20%;}
+
+.test { background-color: #714b67; font-size: 15px; border: none; height: fit-content;}
+.advice { background-color: #017e84;}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #939192;
+    text-align: left;
+    padding: 8px;
+  }
+
+
+.navbar {
+    background-color: #714b67;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(45, 29, 69);
+    padding: 10px; }
+
+.landing {padding-right: 50px important!; display: grid; place-items: center;}
+
+.home { 
+    display: flex;
+    flex-direction: row; }
+
+.main { 
+    margin-top: 80px;
+    padding: 2px; }
+
+h1 { text-align: center; }
+
+.words , .tests, .Astronomy , .Baby, .kitchenTools, .Politics ,.HouseChores, .Death, .Money,.letters, .theLanding , .Travel, .Law, .Astronomy, .tools , .fruits , .vegetables, .animals , .bodyPart , .maths , .foods , .sports , .calendars , .schools , .Weather , .jobs , .Health , .publicPlace , .roads , .Clothes , .Homes , .Nature, .celebrations, .life , .electronics {
+    display: flex;
+    align-items: center;
+    flex-direction: row !important;
+    row-gap: 25px;
+    flex-wrap: wrap; }
+
+.categories , .test , .aTool, .aFruit, .aVegetable , .toools , .animal , .aPart , .math , .aFood , .aSport , .theCalendar , .theSchool , .theWeather ,.aJob , .theHealth , .aPublicPlace , .theRoad , .theClothes , .aHome , .theNature, .aCelebration, .aStage , .gadget { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px; } 
+
+.title { 
+    text-align: center;
+    flex: 100%; 
+    margin-bottom: 20px; }
+
+.familyMembers {display: grid; place-items: center; align-content: center;}
+
+button {
+    color: white;
+    padding: 1px;
+    margin: 3px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer; }
+
+.aWord {color: #714b67; width: 50%;}
+
+img {
+    width: 100px;
+    height:90px; }
+
+.landing img {
+    width: 150px;
+    height: 130px; }
+
+.GROUPS td,th {text-align: center;}
+
+.theCalendar img { border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ; }
+
+.aFood img { border-radius:20px ; -webkit-border-radius:20px ; -moz-border-radius:20px ; -ms-border-radius:20px ; -o-border-radius:20px ; }
+
+h3 { cursor: pointer; text-align: center; }
+
+.hide { display: none !important; }
+
+.organs {display: grid; place-items: center;}
+
+.buttonCalendar { color: black; border-width: 1px; font-size: 16px; background-color: white; padding-bottom: 10px !important;}
+
+.image {position: relative;} 
+
+.anOrgan {
+    position: absolute;
+    background-color: white; 
+    color: black;
+    width: 95px;
+    height: 30px;} 
+
+.brain { top: 10px; left: 10px; }          .heado { top: 19px; left: 332px; }
+.eyes { top: 45px; left: 10px; }           .ears { top: 56px; left: 332px; }
+.teeth {  top: 80px; left: 10px; }         .lungs { top: 182px; left: 332px; }   
+.trachea {  top: 126px; left: 10px; }
+.oesophagus {  top: 234px; left: 10px; }
+.blader { top: 420px; left: 332px; }
+                                           .heart{ top: 215px; left: 332px; }
+.liver { top: 273px; left: 10px; }         .stomach { top: 273px; left: 332px; }
+.kidney { top: 309px; left: 10px; }        .smallIntestine { top: 364px; left: 332px; }
+.largeIntestine { top: 376px; left: 10px; }
+
+.body {
+    position: absolute;
+    background-color: white; 
+    color: black;
+    width: 59px;
+    height: 25px;}
+
+.neck { top: 0px; left: 0px; }     .shoulder { top: 17px; left: 384px; }  
+.chest { top: 30px; left: 0px; }   .arm { top: 53px; left: 384px; }
+.nipples { top: 62px; left: 0px; } .back { top: 82px; left: 384px; } 
+.navel { top: 120px; left: 0px; }  .elbow { top: 109px; left: 384px; }
+.thigh { top: 215px; left: 0px; }  .hip { top: 135px; left: 384px; } 
+.knee { top: 251px; left: 0px; }   .butt { top: 165px; left: 384px; }  
+.leg { top: 292px; left: 0px; }    .ankle { top: 340px; left: 384px; }
+.toe { top: 367px; left: 0px; }    .heel { top: 368px; left: 384px; }
+.waist { top: 103px; left: 185px; }       .belly { top: 93px; left: 0px; }                            
+.foot { top: 355px; left: 185px; }   .breast { top: 53px; left: 185px;  }   
+                                 
+.face {
+    position: absolute;
+    background-color: white; 
+    color: black;
+    padding: 5px;
+    width: 70px;
+    height: 28px;}
+
+.hair { top: 80px; left: 0px; }     .eyebrows { top: 140px; left: 370px; } 
+.forehead { top: 120px; left: 0px; }.eyelashes { top: 176px; left: 370px; } 
+.eyelid { top: 160px; left: 0px; }  .cheeks { top: 227px; left: 370px; }  
+.nose { top: 204px; left: 0px; }   
+.nostrils { top: 244px; left: 0px; }.mouth { top: 278px; left: 370px; } 
+.lips { top:286px; left: 0px; }     .chin { top: 315px; left: 370px; } 
+
+.throat {
+    position: absolute;
+    background-color: white; 
+    color: black;
+    width: 79.3px;
+    height: 34px;}
+
+.incisors { top: 4px; left: 181px; } 
+.tonsil { top: 200px; left: 0px; }   .canine { top: 103px; left: 350px; } 
+.gums { top: 80px; left: 0px; }  
+.tongue { top: 255px; left: 0px; }     .uvula { top: 180px; left: 350px; }
+.molars { top: 249px; left: 350px; }
+.premolars { top: 303px; left: 350px; }
+
+.hand {
+    position: absolute;
+    background-color: white; 
+    color: black;
+    width: 110px;
+    height: 32px;}
+
+.middleFinger { top: 15px; left: 0px; }  .index { top: 37px; left: 321px; } 
+.ringFinger { top: 65px; left: 0px; }  .nails { top: 80px; left: 321px; } 
+.pinky { top: 114px; left: 0px; }       .thumb { top: 123px; left: 321px; }    
+.wrist { top: 213px; left: 0px; }
+.palm { top: 160px; left: 0px; }
+
+
+.nature {display: grid; place-items: center;}
+.continents {
+    position: absolute;
+    background-color: transparent; 
+    border-color: transparent;
+    color: white;
+    width: 110px;
+    height: 32px;}
+.NorthAmerica { top: 70px; left: 30px; font-size: 10px;}  
+.SouthAmerica { top: 130px; left: 73px; font-size: 9px;}  
+.Europe { top: 67px; left: 166px; font-size: 8px;}           
+.Africa { top: 105px; left: 160px; }
+.Asia { top: 50px; left: 240px; }  
+.Australia { top: 153px; left: 306px; font-size: 10px; }
+.Antarctica { top: 226px; left: 190px; color: black; }
+
+
+.AtlanticOcean { top: 90px; left: 100px; color: black;}  
+.PacificOcean { top: 135px; left: 10px; color: black;}  
+.IndianOcean { top: 140px; left: 240px; color: black;}           
+.ArcticOcean { top: 28px; left: 145px; color: black; font-size: 10px;}
+.SouthernOcean { top: 200px; left: 190px; color: rgb(4, 40, 87);}  
+
+
+.homes {display: grid; place-items: center;} 
+.ceiling { top: 2px; left: 100px; color: black; font-size: 15px; }  
+.wall { top: 100px; left: 100px; color: black; font-size: 15px; }  
+.floor { top: 200px; left: 100px; color: black; font-size: 15px; } 
+
+.member {
+    position: absolute;
+    background-color: transparent; 
+    border-color: transparent;
+    color: black;
+    width: 110px;
+    height: 32px;
+    font-size: 11px;} 
+
+.grandParents { top: 14px; left: 40px; }  
+.grandParents2 { top: 14px; left: 250px; } 
+.parents { top: 62px; left: 145px; } 
+.cousins { top: 72px; left: 20px; }  
+.siblings { top: 110px; left: 106px; }
+.Children { top: 147px; left: 230px; }
+.GrandChildren { top: 218px; left: 230px; }
+.you { top: 95px; left: 220px; } 
+.Spouse { top: 95px; left: 255px; }     
+
+.grandMother { top: -3px; left: -1px; color: #ce0303;}
+.grandMother2 { top: -3px; left: 200px; color: #ce0303; }
+.aunt { top: 44px; left: 35px; color: #ce0303; } 
+.aunt2 { top: 47px; left: 244px; color: #ce0303; }
+.mother { top: 45px; left: 113px; color: #ce0303; } 
+.sister { top: 95px; left: 140px; color: #ce0303; } 
+.Daughter { top: 131px; left: 206px; color: #ce0303; }
+.SisterInLaw { top: 95px; left: 10px; color: #ce0303; } 
+.Niece { top: 153px; left: 9px; color: #ce0303; }
+.DaughterInLaw { top: 131px; left: 320px; color: #ce0303; } 
+.GrandDaughter { top: 192px; left: 152px; color: #ce0303; }
+.GrandDaughter2 { top: 192px; left: 262px; color: #ce0303; }      
+
+.grandFather { top: -3px; left: 80px; color: rgb(10, 10, 148);}    
+.grandFather2 { top: -3px; left: 285px; color: rgb(10, 10, 148);}  
+.father { top: 45px; left: 175px; color: rgb(10, 10, 148);}  
+.uncle { top: 44px; left: -40px; color: rgb(10, 10, 148);}  
+.uncle2 { top: 44px; left: -1px; color: rgb(10, 10, 148);} 
+.uncle3 { top: 47px; left: 319px; color: rgb(10, 10, 148);} 
+.Piblings { top: 63px; left: 283px; }
+.brother { top: 95px; left: 67px; color: rgb(10, 10, 148);} 
+.Son { top: 131px; left: 260px; color: rgb(10, 10, 148);}  
+.Nephew { top: 154px; left: 55px; color: rgb(10, 10, 148);}
+.Niblings { top: 169px; left: 35px; }
+.SonInLaw { top: 131px; left: 150px; color: rgb(10, 10, 148);} 
+.GrandSon { top: 192px; left: 310px; color: rgb(10, 10, 148);}
+.GrandSon2 { top: 192px; left: 200px; color: rgb(10, 10, 148);}
+
+.Father { top: -5px; left: 264px; color: rgb(10, 10, 148); font-size: 15px;} 
+.Mother { top: -5px; left: 163px; color: #ce0303; font-size: 15px; }
+.You { top: 40px; left: 217px; font-size: 15px; }
+.StepFather { top: -5px; left: 65px; color: rgb(10, 10, 148); font-size: 15px;} 
+.StepMother { top: -5px; left: 343px; color: #ce0303;  font-size: 15px;}
+.StepBrother { top: 45px; left: 151px; color: rgb(10, 10, 148); } 
+.StepSister { top: 45px; left: 93px; color: #ce0303; }
+.StepBrother2 { top: 45px; left: 335px; color: rgb(10, 10, 148);} 
+.StepSister2 { top: 45px; left: 280px; color: #ce0303;}
+.StepBrother3 { top: 45px; left: 35px; color: rgb(10, 10, 148);} 
+.StepSister3 { top: 45px; left: -20px; color: #ce0303;}
+.Awoman { top: -5px; left: -18px; color: #ce0303;  font-size: 15px;}
+
+
+
+.question{
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 10px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+    background-color: #714b67;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    border: none;
+}
+.right {
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
